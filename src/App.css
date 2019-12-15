@@ -2,20 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.guesswho {
+  width: 20%;
+  position: fixed;
+  left: 10%;
+
+  
+}
+.guesswho {
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .guesswho {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;

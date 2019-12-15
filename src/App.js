@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
@@ -23,7 +23,7 @@ class App extends Component {
       this.state.cards.forEach(card => {
         card.count = 0;
       });
-      alert(`Game Over :( \mscore: ${this.state.score}`);
+      alert(`Game Over :( \nscore: ${this.state.score}`);
       this.setState({score: 0});
       return true;
     }
@@ -48,7 +48,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        <img className="guesswho" src="https://hallrecord.org/wp-content/uploads/2018/03/header_logo.png"></img>
+        <Header score={this.state.score} highscore={this.state.highscore}></Header>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}

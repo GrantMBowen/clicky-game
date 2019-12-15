@@ -1,0 +1,12 @@
+.wrapper {
+    padding-top: 10px;
+    background: blue;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    padding: 20px;
+    /* padding-top: 50px; */
+    justify-content: space-evenly;
+    align-content: flex-start;
+    overflow: auto;
+}
