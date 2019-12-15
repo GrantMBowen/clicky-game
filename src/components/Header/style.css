@@ -1,0 +1,17 @@
+/* Link for Title:
+https://hallrecord.org/wp-content/uploads/2018/03/header_logo.png */
+
+.header {
+    width: 100%;
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.title {
+    float: left;
+}
+
+.scores {
+    float: right;
+}
